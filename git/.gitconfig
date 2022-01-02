@@ -1,9 +1,11 @@
 [core]
 	editor = nano
 	autocrlf = false
-	excludesfile = ~/.gitignore_global
+	excludesFile = ~/.gitignore_global
 [pull]
 	ff = only
 [user]
 	name = Tim Davis
 	email = 7432943+thebearingedge@users.noreply.github.com
+[init]
+	defaultBranch = main
