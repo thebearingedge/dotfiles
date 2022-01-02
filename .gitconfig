@@ -1,0 +1,8 @@
+[core]
+	editor = nano
+	autocrlf = false
+[pull]
+	ff = only
+[user]
+	name = Tim Davis
+	email = 7432943+thebearingedge@users.noreply.github.com
