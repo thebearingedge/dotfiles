@@ -1,6 +1,7 @@
 [core]
 	editor = nano
 	autocrlf = false
+	excludesfile = ~/.gitignore_global
 [pull]
 	ff = only
 [user]
