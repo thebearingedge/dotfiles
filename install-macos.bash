@@ -25,8 +25,9 @@ function install_node() {
 }
 
 function link_files() {
-  ln -s "$dotfiles/.gitconfig" "$HOME"/.gitconfig
-  ln -s "$dotfiles/.bash_profile" "$HOME"/.bash_profile
+  ln -s "$dotfiles"/.npmrc "$HOME"/.npmrc
+  ln -s "$dotfiles"/.gitconfig "$HOME"/.gitconfig
+  ln -s "$dotfiles"/.bash_profile "$HOME"/.bash_profile
 }
 
 function do_install() {
